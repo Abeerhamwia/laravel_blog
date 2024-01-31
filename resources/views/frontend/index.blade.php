@@ -8,7 +8,7 @@
 
 @section('content')
 
-<div class="bg-danger py-5">
+<div class="py-5" style="background-color: darkgoldenrod;">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -36,7 +36,7 @@
 <div class="py-1 bg-gray">
     <div class="container">
         <div class="border text-center p-3">
-            <h3>Advertise here</h3>
+            <h3>SOFTWARE  DEVELOPER</h3>
         </div>
     </div>
 </div>
@@ -45,11 +45,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h4>Funda of Web IT</h4>
+                <h4>About me</h4>
                 <div class="underline"></div>
                 <p>
-                    Funda (afgeleid van "fundum", het Latijnse woord voor landgoed) is een Nederlandse organisatie gevestigd in Amsterdam die Nederlands onroerend goed op internet presenteert. De hoofdsite van funda is funda.nl. Met rond de 68 miljoen bezoeken per maand is funda.nl een van de drukst bezochte huizensites van Nederland.
-                    Funda (afgeleid van "fundum", het Latijnse woord voor landgoed) is een Nederlandse organisatie gevestigd in Amsterdam die Nederlands onroerend goed op internet presenteert. De hoofdsite van funda is funda.nl. Met rond de 68 miljoen bezoeken[1] per maand is funda.nl een van de drukst bezochte huizensites van Nederland.
+                    five-year computer science student, future web developer, with 3 years experience in database and website build and design. My passion for web space development brought me to [Arab International University ] I am graduation at my bachelor's degree Currently ,I try to find work that makes me creative.
                 </p>
                 
             </div>
