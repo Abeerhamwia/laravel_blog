@@ -65,7 +65,7 @@ class CommentController extends Controller
             {
                 return response()->json([
                     'status' => 500,
-                    'message' => 'Something Wrong'
+                    'message' => 'Something Wrongs'
                 ]);
 
             }
