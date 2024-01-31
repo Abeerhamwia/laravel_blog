@@ -59,6 +59,7 @@
         }
         })
     </script>
+    @yield('scripts')
     
 
 </body>

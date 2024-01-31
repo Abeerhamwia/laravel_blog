@@ -12,6 +12,11 @@ Route::get('/',[App\Http\Controllers\Frontend\FrontendController::class, 'index'
 Route::get('tutorial/{category}',[App\Http\Controllers\Frontend\FrontendController::class, 'viewCategoryPost'])->name('viewCategoryPost');
 Route::get('tutorial/{category}/{post_slug}',[App\Http\Controllers\Frontend\FrontendController::class, 'viewPost'])->name('viewPost');
 
+
+// Comment System
+Route::post('comments', [App\Http\Controllers\Frontend\CommentController::class, 'store']);
+Route::post('delete-comment', [App\Http\Controllers\Frontend\CommentController::class, 'destroy']);
+
 Route::prefix('admin')->middleware(['auth','isAdmin'])->group(function () {
     Route::get('/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index']);
 
